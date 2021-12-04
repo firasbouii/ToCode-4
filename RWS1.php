@@ -1,7 +1,7 @@
 <?php
 
-
-if(isset($_POST)) {
+//This is a POST endpoint accepts and array of pets in the post body 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $data = json_decode(file_get_contents('php://input'), true);
     //echo file_get_contents('php://input');
     $counts = array(
