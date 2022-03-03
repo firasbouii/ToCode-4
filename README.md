@@ -21,7 +21,7 @@ Testing :
 - Write `Client1` for a method with XML response : the one tested with SOAPUI. Use SimpleXML to parse XML.
 - Write `Client2` for a method with JSON response : the one tested with POSTMAN.
 
-> Step 3 (Bonus Step)
+> Step 3
 
 Call `RWS1` and `RWS2` using a Web interface.
 
